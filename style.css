@@ -226,6 +226,12 @@ main img{
 
 @media only screen and (max-width: 830px)
 {
+  .main 
+{
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
   .main .logo h1
   {
    font-size: 15px;
@@ -241,6 +247,12 @@ main img{
   {
    font-size: 15px;
   }
+  main
+{
+  padding-top: 10px;
+  flex-direction: column-reverse;
+ 
+}
   .left h2
   {
    font-size: 20px;
@@ -274,7 +286,7 @@ main img{
   }
   header
   {
-   max-height: 70vh;
+   max-height: 100vh;
    background-size: 100% 100%;
   }
   .about
