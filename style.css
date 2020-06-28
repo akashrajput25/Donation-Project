@@ -268,25 +268,25 @@ main img{
   .about
   {
    width: 100%;
-   height: 80vh;
+   height: 85vh;
    padding-left: 10%;
    padding-top: 5%;
    padding-right: 10%;
   }
   .about h1
   {
-   padding: 10px;
-   font-size: 30px;
+   padding: 5px;
+   font-size: 25px;
   }
   .about h2
   {
-   padding: 10px;
-   font-size: 17px;
+   padding: 5px;
+   font-size: 15px;
    line-height: 1.5;
   }
   .precautions
   {
-    height: 80vh;
+    height: 70vh;
   }
   .precautions h1
   {
@@ -305,4 +305,94 @@ main img{
   {
    padding-bottom: 20px;
   }
+}
+@media only screen and (max-width: 580px)
+{
+  .main .logo h1
+  {
+   font-size: 13px;
+   padding: 10px;
+   padding-top: 5px;
+  }
+  .main .logo 
+  {
+   width:120px;
+   height: 26px;
+  }
+  .main nav a
+  {
+   font-size: 12px;
+  }
+  .left h2
+  {
+   font-size: 15px;
+   margin-top: 10%;
+  }
+  .left h1
+  {
+   font-size: 16px;
+  }
+  main .left
+  {
+   padding-left: 0%;
+  }
+  main .right
+  {
+   padding-left: 20%;
+  }
+  main img
+  {
+    width: 98%;
+  }
+  .main .logo img
+  {
+   width:70px;
+   height: 70px;
+  }
+ 
+  header
+  {
+   max-height: 60vh;
+   background-size: 100% 100%;
+  }
+  .about
+  {
+   width: 100%;
+   height: 50vh;
+   padding-left: 5%;
+   padding-top: 5%;
+   padding-right: 5%;
+  }
+  .about h1
+  {
+   padding: 10px;
+   font-size: 20px;
+  }
+  .about h2
+  {
+   padding: 10px;
+   font-size: 12px;
+   line-height: 1.5;
+  }
+  .precautions
+  {
+    height: 65vh;
+  }
+  .precautions h1
+  {
+   padding: 5px;
+   font-size: 20px;
+  }
+
+  .precautions .ptable 
+  {
+   padding: 10px;
+   font-size: 12px;
+   padding-top: 40px;
+  }
+
+  .precautions .ptable td 
+  {
+   padding-bottom: 30px;
+  } 
 }
