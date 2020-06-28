@@ -353,7 +353,7 @@ main img{
   header
   {
    max-height: 60vh;
-   background-size: 100% 100%;
+   background-size: 100% 50%;
   }
   .about
   {
@@ -362,6 +362,7 @@ main img{
    padding-left: 5%;
    padding-top: 5%;
    padding-right: 5%;
+   background-size: 100% 50%;
   }
   .about h1
   {
@@ -377,6 +378,7 @@ main img{
   .precautions
   {
     height: 65vh;
+    background-size: 100% 50%;
   }
   .precautions h1
   {
