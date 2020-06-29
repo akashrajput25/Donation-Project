@@ -8,10 +8,11 @@ html{
   padding: 0;
   font-family: 'Josefin Sans';
   box-sizing: border-box;
+  text-shadow: 0.5px 0.5px 1px black;
  }
  body
  {
-   border: 5px solid skyblue;
+   border: 5px solid cyan;
  }
  header
 {
@@ -36,19 +37,21 @@ html{
 {
   font-size: 20px;
   padding: 30px;
+  color: #555;
   padding-top: 20px;
 }
 .main .logo 
 {
   width:190px;
   height: 60px;
+  font-weight: 900;
   border-radius: 50px;
-  border: 2px outset cyan;
+  border: 4px outset cyan;
 }
+
 .main nav
 {
   width:80%;
-  
   display:flex;
   align-items: center;
   justify-content: space-around;
@@ -57,7 +60,7 @@ html{
 .main nav a
 {
   text-decoration: none;
-  color: #555;
+  color: #555; 
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -69,7 +72,8 @@ html{
 
 main .btn
 {
-  padding-top: 30px;
+  padding-top: 20px;
+  
 }
 main button
 {
@@ -77,18 +81,30 @@ main button
   text-align: center;
   font-size: 15px;
   border: none;
-  background:linear-gradient(darkcyan,cyan) ;
+  background: linear-gradient( darkcyan,cyan,#555);
   border-radius: 15px;
+  -webkit-box-reflect:bottom 1% linear-gradient(transparent,#0004);
+  
+  transition: 0.5s;
 }
+
 main button a
 {
   text-decoration: none;
   color: #ffffff;
 }
+
+main button a:hover
+{
+  color: black;
+  text-shadow: none;
+}
+
 main
 {
   width: 100%;
   display: flex;
+  letter-spacing: 2px;
   padding: 5%;
   justify-content: space-between;
   align-items: center;
@@ -128,6 +144,11 @@ main img{
   width: 75%;
 }
 
+.left .tag
+{
+  color: crimson;
+  text-shadow: 1.2px 1.2px 1.2px #004;
+}
 .precautions
 {
   width: 100%;
@@ -138,7 +159,8 @@ main img{
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
-  padding-top: 5%;
+  padding-top:15%;
+  letter-spacing: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,13 +181,9 @@ main img{
   padding: 10px;
   color: darkcyan;
   font-weight: 700;
+  letter-spacing: 2px;
   font-size: 22px;
-  padding-top: 50px;
-}
-
-.precautions .ptable td 
-{
- padding-bottom: 25px;
+  padding-top: 40px;
 }
 
 .about
@@ -176,7 +194,7 @@ main img{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-left: 5%;
-  padding-top: 10%;
+  padding-top: 15%;
   padding-right: 5%;
   display: flex;
   flex-direction: column;
@@ -198,6 +216,7 @@ main img{
  color: darkcyan;
  font-weight: 600;
  font-size: 22px;
+ letter-spacing: 2px;
  padding-top: 50px;
  padding-bottom: 40px;
 }
@@ -226,7 +245,7 @@ main img{
   font-weight: 700;
 }
 
-@media only screen and (max-width: 930px)
+@media only screen and (max-width: 830px)
 {
  .main 
  {
@@ -258,7 +277,7 @@ main img{
   .left h2
   {
    font-size: 20px;
-   margin-top: 30%;
+   margin-top: 10%;
   }
   .left h1
   {
